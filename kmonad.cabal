@@ -134,6 +134,8 @@ library
       KMonad.Keyboard.IO.Mac.IOKitSource
       KMonad.Keyboard.IO.Mac.KextSink
       KMonad.Keyboard.IO.Mac.Types
+    cxx-sources:
+      c_src/mac/keyio_mac.hpp
     if flag(kext)
       cxx-sources:
         c_src/mac/kext.cpp
